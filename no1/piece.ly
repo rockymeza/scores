@@ -1,9 +1,12 @@
 #(set-default-paper-size "letter")
 
-\version "2.10.33"
+\version "2.14.2"
 \header{
-  title = "No. 1"
-  composer="Rocky Meza"
+  title = "Beauty is eternity gazing at itself in a mirror"
+  composer = "Rocky Meza"
+  copyright = "2013 Rocky Meza"
+  instrument = "Piano"
+  opus = "No. 1"
   % tagline = ##f
 }
 
@@ -14,7 +17,7 @@ Music = {
 
     % Tone row
     \time 4/4
-    \mark "Timid"
+    \mark "Not too fast"
 
     bes'8-_\f\< aes'-_ d'2.\! |
     \clef bass r1 |
